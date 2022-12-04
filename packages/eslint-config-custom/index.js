@@ -3,8 +3,6 @@ module.exports = {
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
     'react/jsx-key': 'off',
-    semi: 'error',
-    quotes: ['error', 'single']
     camelcase: ['error', { properties: 'never', ignoreDestructuring: true }],
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],

@@ -1016,7 +1016,7 @@ __metadata:
     "@types/react": 18.0.26
     "@types/react-dom": 18.0.9
     eslint: 8.29.0
-    eslint-config-custom: "workspace:^"
+    eslint-config-custom: "*"
     eslint-config-next: 13.0.6
     next: 13.0.6
     react: 18.2.0
@@ -1401,7 +1401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-custom@*, eslint-config-custom@workspace:^, eslint-config-custom@workspace:packages/eslint-config-custom":
+"eslint-config-custom@*, eslint-config-custom@workspace:packages/eslint-config-custom":
   version: 0.0.0-use.local
   resolution: "eslint-config-custom@workspace:packages/eslint-config-custom"
   dependencies:
