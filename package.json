@@ -22,5 +22,15 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "@mdx-js/loader": "next",
+    "@mdx-js/react": "^2.1.5",
+    "@next/mdx": "^13.0.6",
+    "@reach/disclosure": "^0.18.0",
+    "@reach/tooltip": "^0.18.0",
+    "gray-matter": "^4.0.3",
+    "rehype-highlight": "^6.0.0",
+    "remark-frontmatter": "^4.0.1"
+  }
 }
